@@ -1,0 +1,5 @@
+# CodeAnalysis
+
+## Secrets
+  - GitLeaks
+  - TruffleHog
