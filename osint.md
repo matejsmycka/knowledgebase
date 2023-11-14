@@ -16,7 +16,11 @@ The list is non-exhaustive.
 - Web archives, google cache
 - Source code of the website (HTML, JS, CSS)
 - Github has super helpful full-text search
-- Public state databases (e.g. in CZ "Ares")
+
+## Czech Republic specific
+
+- Public state databases (e.g. "Ares")
+- seznam.cz is golden 
 
 ## Sites to check
 
