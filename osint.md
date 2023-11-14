@@ -1,25 +1,39 @@
 # Osint
 
 ## Checklist
-List is non-exhaustive.
 
-- Source control (Github, Gitlab, Bitbucket...)
+The list is non-exhaustive.
+
+- Source control (Github, Gitlab, Bitbucket...) - Check with GitLeaks
 - Google search
+- 
 - Employees
   - Non-work repositories
+  - personal information
+  - usernames
+  
 - Apple store / Google store
-- DNS certificates
+- DNS [reverse] Search 
 - Files metadata (public documents..., EXIF)
-- Archives
-- Source code of the website (HTML,JS, CSS)
+- Web archives, google cache
+- Source code of the website (HTML, JS, CSS)
+- Github has super helpful full-text search
+- Public state databases (e.g. in CZ "Ares")
 
+## Sites to check
+
+- bitbucket.org
+- hub.docker.com
+- pastebin.com
+- gitlab.com
+- github.com
 
 ## Tools
 
-- Shodan
-- https://www.metadata2go.com/
+- HOSTS - https://www.shodan.io/
+- METADATA - https://www.metadata2go.com/
 - https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
 - https://www.exploit-db.com/google-hacking-database
-- https://github.com/sherlock-project/sherlock
+- USERNAMES - https://github.com/sherlock-project/sherlock
 - https://github.com/jivoi/awesome-osint
 - https://github.com/mxrch/GHunt
