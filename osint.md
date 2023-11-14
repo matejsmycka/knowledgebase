@@ -6,12 +6,10 @@ The list is non-exhaustive.
 
 - Source control (Github, Gitlab, Bitbucket...) - Check with GitLeaks
 - Google search
-- 
 - Employees
   - Non-work repositories
   - personal information
   - usernames
-  
 - Apple store / Google store
 - DNS [reverse] Search 
 - Files metadata (public documents..., EXIF)
