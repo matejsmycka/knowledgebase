@@ -11,12 +11,14 @@ The list is non-exhaustive.
   - personal information
   - usernames
 - Apple store / Google store
-- DNS [reverse] Search 
+- Domains
+    - Domain and subdomain discovery
+    - [Reverse] DNS Searching
+    - Web certificates
 - Files metadata (public documents..., EXIF)
 - Web archives, google cache
 - Source code of the website (HTML, JS, CSS)
 - Github has super helpful full-text search
-- Web certificates
 
 ## Czech Republic specific
 
