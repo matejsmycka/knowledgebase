@@ -16,6 +16,7 @@ The list is non-exhaustive.
 - Web archives, google cache
 - Source code of the website (HTML, JS, CSS)
 - Github has super helpful full-text search
+- Web certificates
 
 ## Czech Republic specific
 
@@ -32,10 +33,13 @@ The list is non-exhaustive.
 
 ## Tools
 
-- HOSTS - https://www.shodan.io/
-- METADATA - https://www.metadata2go.com/
-- https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
+- Hosts - https://www.shodan.io/
+- File metadata - https://www.metadata2go.com/
+- How to check validity of secrets - https://github.com/streaak/keyhacks
+- Search for accounts on all sort of services - https://github.com/sherlock-project/sherlock
+- Search in code of public repositories - https://grep.app/
+
 - https://www.exploit-db.com/google-hacking-database
-- USERNAMES - https://github.com/sherlock-project/sherlock
 - https://github.com/jivoi/awesome-osint
 - https://github.com/mxrch/GHunt
+- https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
