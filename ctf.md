@@ -11,6 +11,11 @@ https://gtfobins.github.io/
 - `puttygen keeper.ppk -O private-openssh -o keeper.pem` PPK to PEM
 - `ansible2john ansible.vaul >> hashes`
 
+## Webshells
+
+- PHP webshell file upload feature - https://raw.githubusercontent.com/artyuum/simple-php-web-shell/master/index.php
+- PHP webshell, multiple function exploit - https://github.com/flozz/p0wny-shell
+
 ## Resources
 
 
