@@ -23,3 +23,6 @@ sessions -i 2
 ```
 use post/multi/manage/autoroute
 ```
+## Opsec ssh jumphost
+
+ssh -N -L 3000:localhost:3000 ubuntu@IPADDR
