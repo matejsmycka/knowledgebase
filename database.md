@@ -15,3 +15,13 @@ echo "Dumping database: $db"
     mariadb-dump -u <USER> -P 3306 -h <HOST> -p<PASSWD>--single-transaction --ssl $db | gzip > ${db}_dump.sql.gz
 done
 ```
+
+## Postgres
+
+```
+\list # List databases
+\c <database> # use the database
+\d # List tables
+\du+ # Get users roles
+\x auto # formatted
+```
