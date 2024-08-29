@@ -2,7 +2,7 @@
 
 ## Enum
 
-- subdomain enum `ffuf` | `go install github.com/ffuf/ffuf/v2@latest`
+- subdomain enum `ffuf` | `go install github.com/ffuf/ffuf/v2@latest` | `ffuf -w ./Subdomain.txt -u http://monitorsthree.htb -H "Host: FUZZ" -fs 13560`
 
 ## PrivEsc
 
