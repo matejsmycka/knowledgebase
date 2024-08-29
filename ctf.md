@@ -1,5 +1,9 @@
 # CTF gathered resources 
 
+## Enum
+
+- subdomain enum `ffuf` | `go install github.com/ffuf/ffuf/v2@latest`
+
 ## PrivEsc
 
 ```
