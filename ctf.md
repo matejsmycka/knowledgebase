@@ -1,5 +1,9 @@
 # CTF gathered resources 
 
+## SQLi 
+
+Nice tutorial: https://hackertarget.com/sqlmap-post-request-injection/ | ` sqlmap -r burp-http-req.txt -p password`
+
 ## Enum
 
 - subdomain enum `ffuf` | `go install github.com/ffuf/ffuf/v2@latest` | `ffuf -w ./Subdomain.txt -u http://monitorsthree.htb -H "Host: FUZZ" -fs 13560`
