@@ -2,8 +2,8 @@
 
 ## Security principles
 
-- https://owasp.org/www-project-developer-guide/draft/foundations/security_principles/
-- https://sre.google/books/building-secure-reliable-systems/
+- OWASP security principles | https://owasp.org/www-project-developer-guide/draft/foundations/security_principles/
+- Building Secure and Reliable Systems | https://sre.google/books/building-secure-reliable-systems/
 
 ## Thesis
 
