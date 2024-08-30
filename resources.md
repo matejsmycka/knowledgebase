@@ -3,6 +3,7 @@
 ## Security principles
 
 - https://owasp.org/www-project-developer-guide/draft/foundations/security_principles/
+- https://sre.google/books/building-secure-reliable-systems/
 
 ## Thesis
 
@@ -45,3 +46,25 @@
 19. YI, Kwangkeun. *Static Analysis: An Abstract Interpretation Perspective*. 2019. Available also from: [http://ropas.snu.ac.kr/~kwang/talk/ssft19.pdf](http://ropas.snu.ac.kr/~kwang/talk/ssft19.pdf).
 
 20. PĂSĂREANU, C.S. *Symbolic Execution and Quantitative Reasoning: Applications to Software Safety and Security*. Springer International Publishing, 2022. Synthesis Lectures on Software Engineering. ISBN 9783031025518.
+
+21. BJORNER, D.; BROY, M.; POTTOSIN, I.V. *Formal Methods in Programming and Their Applications: International Conference, Academgorodok, Novosibirsk, Russia, June 28 - July 2, 1993. Proceedings*. Springer Berlin Heidelberg, 1993. Lecture Notes in Computer Science. ISBN 9783540573166.
+
+22. GODEFROID, Patrice; KLARLUND, Nils; SEN, Koushik. *DART: Directed Automated Random Testing*. In: *ACM Sigplan Notices*. ACM, 2005, vol. 40, pp. 213–223. No. 6.
+
+23. FRIEDL, Jeffrey E. F. *Mastering Regular Expressions, 3rd Edition*. O'Reilly Media, Inc., 2006. ISBN 9780596528126.
+
+24. VARIOUS. *man grep*. Linux Manual Pages. 2021, vol. 1, no. 8, pp. X–X. Available also from: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html).
+
+25. NOVAK, Jernej; KRAJNC, Andrej; ZONTAR, Rok. *Taxonomy of Static Code Analysis Tools*. 2010.
+
+26. MURCH, R. *The Software Development Lifecycle - A Complete Guide*. Richard Murch, [n.d.].
+
+27. SATO, D. *DevOps in Practice: Reliable and Automated Software Delivery*. Casa do Código, 2014. ISBN 9788566250961.
+
+28. CHACON, S.; STRAUB, B. *Pro Git*. Apress, 2014. The Experts Voice. ISBN 9781484200766.
+
+29. ZHENG, A.; CASARI, A. *Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists*. O'Reilly Media, 2018. ISBN 9781491953198.
+
+30. MANNING, C. D.; RAGHAVAN, P.; SCHÜTZE, H. *Introduction to Information Retrieval*. Cambridge University Press, 2008. ISBN 0521865719.
+
+31. SAMMUT, C.; WEBB, G.I. *Encyclopedia of Machine Learning*. Springer US, 2011. ISBN 9780387307688.
