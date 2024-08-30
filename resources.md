@@ -7,64 +7,37 @@
 
 ## Thesis
 
-1. HANČUĽÁK, Radovan. *Security Analysis of an Existing Web Application*. 2022. Available also from: [https://is.muni.cz/auth/th/gb3ea/](https://is.muni.cz/auth/th/gb3ea/). Bachelor's thesis. Masaryk University.
+| **Title** | **Authors** | **Year** | **Publisher** | **ISBN/DOI** | **Notes** |
+|-----------|-------------|----------|---------------|--------------|-----------|
+| *Security Analysis of an Existing Web Application* | HANČUĽÁK, Radovan | 2022 | Masaryk University | [Link](https://is.muni.cz/auth/th/gb3ea/) | Bachelor's thesis |
+| *Detection of Security Bugs Using Static Code Analysis* | FORMÁNEK, Bc. David | 2016 | Masaryk University | [Link](https://is.muni.cz/auth/th/j57h2/) | Master's thesis |
+| *Static Analysis of Python Code* | KISKA, Jakub | 2021 | Masaryk University | [Link](https://is.muni.cz/auth/th/o01b6/) | Bachelor's thesis |
+| *Constructing Benchmarks for Supporting Explainable Evaluations of Static Application Security Testing Tools* | HAO, Gaojian; LI, Feng; HUO, Wei; et al. | 2019 | *2019 International Symposium on Theoretical Aspects of Software Engineering (TASE)* | [10.1109/TASE.2019.00-18](https://doi.org/10.1109/TASE.2019.00-18) | Conference Paper |
+| *Comparison and Evaluation on Static Application Security Testing (SAST) Tools for Java* | LI, Kaixuan; CHEN, Sen; FAN, Lingling; et al. | 2023 | Association for Computing Machinery | - | Conference Paper |
+| *Software Engineering, 9th Edition* | SOMMERVILLE, Ian | 2009 | Pearson Education Limited | - | - |
+| *The Service Level Agreement SLA Guide - SLA Book, Templates for Service Level Management and Service Level Agreement Forms* | BLOKDIJK, G. | 2008 | Emereo Pty Limited | ISBN 9781921523625 | - |
+| *Model-Driven Dependability Assessment of Software Systems* | BERNARDI, S.; MERSEGUER, J.; PETRIU, D.C. | 2013 | Springer Berlin Heidelberg | ISBN 9783642395123 | - |
+| *Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems* | ADKINS, Heather; BEYER, Betsy; BLANKINSHIP, Paul; et al. | 2020 | O'Reilly Media | ISBN 9781492083122 | - |
+| *Fundamentals of Secure System Modelling* | MATULEVIČIUS, R. | 2017 | Springer International Publishing | ISBN 9783319617176 | - |
+| *The Basics of Information Security: Understanding the Fundamentals of InfoSec in Theory and Practice* | ANDRESS, J. | 2014 | Elsevier Science | ISBN 9780128008126 | Syngress basics series |
+| *Clean Code: A Handbook of Agile Software Craftsmanship* | MARTIN, R.C. | 2008 | Pearson Education | ISBN 9780136083252 | Robert C. Martin Series |
+| *How Google Tests Software* | WHITTAKER, J.A.; ARBON, J.; CAROLLO, J. | 2012 | Addison-Wesley | ISBN 9780321803023 | - |
+| *Software Testing Fundamentals: Methods and Metrics* | HUTCHESON, M.L. | 2003 | Wiley | ISBN 9780471468448 | - |
+| *Software Risk Management* | BOEHM, B.W. | 1989 | IEEE Computer Society Press | ISBN 9780818659065 | IEEE Computer Society Press tutorial |
+| *Introduction to Static Analysis: An Abstract Interpretation Perspective* | RIVAL, Xavier; YI, Kwangkeun | 2020 | MIT Press | - | - |
+| *Principles of Program Analysis* | NIELSON, F.; NIELSON, H.R.; HANKIN, C. | 2015 | Springer Berlin Heidelberg | ISBN 9783662038116 | - |
+| *Lecture 39: Soundness and Completeness* | STRUCTURES, CS 2800: Discrete | 2016 | - | - | Lecture Notes |
+| *Static Analysis: An Abstract Interpretation Perspective* | YI, Kwangkeun | 2019 | - | [Link](http://ropas.snu.ac.kr/~kwang/talk/ssft19.pdf) | - |
+| *Symbolic Execution and Quantitative Reasoning: Applications to Software Safety and Security* | PĂSĂREANU, C.S. | 2022 | Springer International Publishing | ISBN 9783031025518 | Synthesis Lectures on Software Engineering |
+| *Formal Methods in Programming and Their Applications: International Conference, Academgorodok, Novosibirsk, Russia, June 28 - July 2, 1993. Proceedings* | BJORNER, D.; BROY, M.; POTTOSIN, I.V. | 1993 | Springer Berlin Heidelberg | ISBN 9783540573166 | Lecture Notes in Computer Science |
+| *DART: Directed Automated Random Testing* | GODEFROID, Patrice; KLARLUND, Nils; SEN, Koushik | 2005 | *ACM Sigplan Notices* | - | Conference Paper |
+| *Mastering Regular Expressions, 3rd Edition* | FRIEDL, Jeffrey E. F. | 2006 | O'Reilly Media, Inc. | ISBN 9780596528126 | - |
+| *man grep* | VARIOUS | 2021 | Linux Manual Pages | [Link](https://man7.org/linux/man-pages/man1/grep.1.html) | Manual |
+| *Taxonomy of Static Code Analysis Tools* | NOVAK, Jernej; KRAJNC, Andrej; ZONTAR, Rok | 2010 | - | - | - |
+| *The Software Development Lifecycle - A Complete Guide* | MURCH, R. | [n.d.] | Richard Murch | - | - |
+| *DevOps in Practice: Reliable and Automated Software Delivery* | SATO, D. | 2014 | Casa do Código | ISBN 9788566250961 | - |
+| *Pro Git* | CHACON, S.; STRAUB, B. | 2014 | Apress | ISBN 9781484200766 | The Experts Voice |
+| *Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists* | ZHENG, A.; CASARI, A. | 2018 | O'Reilly Media | ISBN 9781491953198 | - |
+| *Introduction to Information Retrieval* | MANNING, C. D.; RAGHAVAN, P.; SCHÜTZE, H. | 2008 | Cambridge University Press | ISBN 0521865719 | - |
+| *Encyclopedia of Machine Learning* | SAMMUT, C.; WEBB, G.I. | 2011 | Springer US | ISBN 9780387307688 | - |
 
-2. FORMÁNEK, Bc. David. *Detection of Security Bugs Using Static Code Analysis*. 2016. Available also from: [https://is.muni.cz/auth/th/j57h2/](https://is.muni.cz/auth/th/j57h2/). Master's thesis. Masaryk University.
-
-3. KISKA, Jakub. *Static Analysis of Python Code*. 2021. Available also from: [https://is.muni.cz/auth/th/o01b6/](https://is.muni.cz/auth/th/o01b6/). Bachelor's thesis. Masaryk University.
-
-4. HAO, Gaojian; LI, Feng; HUO, Wei; SUN, Qing; WANG, Wei; LI, Xinhua; ZOU, Wei. *Constructing Benchmarks for Supporting Explainable Evaluations of Static Application Security Testing Tools*. In: *2019 International Symposium on Theoretical Aspects of Software Engineering (TASE)*. 2019, pp. 65–72. Available from doi: [10.1109/TASE.2019.00-18](https://doi.org/10.1109/TASE.2019.00-18).
-
-5. LI, Kaixuan; CHEN, Sen; FAN, Lingling; FENG, Ruitao; LIU, Han; LIU, Chengwei; LIU, Yang; CHEN, Yixiang. *Comparison and Evaluation on Static Application Security Testing (SAST) Tools for Java*. In: *New York, NY, USA: Association for Computing Machinery*, 2023, pp. 921–933. ESEC/FSE 2023.
-
-6. SOMMERVILLE, Ian. *Software Engineering, 9th Edition*. Pearson Education Limited, 2009.
-
-7. BLOKDIJK, G. *The Service Level Agreement SLA Guide - SLA Book, Templates for Service Level Management and Service Level Agreement Forms. Fast and Easy Way to Write Your SLA*. Emereo Pty Limited, 2008. ISBN 9781921523625.
-
-8. BERNARDI, S.; MERSEGUER, J.; PETRIU, D.C. *Model-Driven Dependability Assessment of Software Systems*. Springer Berlin Heidelberg, 2013. SpringerLink: Bücher. ISBN 9783642395123.
-
-9. ADKINS, Heather; BEYER, Betsy; BLANKINSHIP, Paul; LEWANDOWSKI, Piotr; OPREA, Ana; STUBBLEFIELD, Adam. *Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems*. O'Reilly Media, 2020. ISBN 9781492083122.
-
-10. MATULEVIČIUS, R. *Fundamentals of Secure System Modelling*. Springer International Publishing, 2017. ISBN 9783319617176.
-
-11. ANDRESS, J. *The Basics of Information Security: Understanding the Fundamentals of InfoSec in Theory and Practice*. Elsevier Science, 2014. Syngress basics series. ISBN 9780128008126.
-
-12. MARTIN, R.C. *Clean Code: A Handbook of Agile Software Craftsmanship*. Pearson Education, 2008. Robert C. Martin Series. ISBN 9780136083252.
-
-13. WHITTAKER, J.A.; ARBON, J.; CAROLLO, J. *How Google Tests Software*. Addison-Wesley, 2012. ISBN 9780321803023.
-
-14. HUTCHESON, M.L. *Software Testing Fundamentals: Methods and Metrics*. Wiley, 2003. ISBN 9780471468448.
-
-15. BOEHM, B.W. *Software Risk Management*. IEEE Computer Society Press, 1989. IEEE Computer Society Press tutorial. ISBN 9780818659065.
-
-16. RIVAL, Xavier; YI, Kwangkeun. *Introduction to Static Analysis: An Abstract Interpretation Perspective*. MIT Press, 2020.
-
-17. NIELSON, F.; NIELSON, H.R.; HANKIN, C. *Principles of Program Analysis*. Springer Berlin Heidelberg, 2015. ISBN 9783662038116.
-
-18. STRUCTURES, CS 2800: Discrete. *Lecture 39: Soundness and Completeness*. 2016.
-
-19. YI, Kwangkeun. *Static Analysis: An Abstract Interpretation Perspective*. 2019. Available also from: [http://ropas.snu.ac.kr/~kwang/talk/ssft19.pdf](http://ropas.snu.ac.kr/~kwang/talk/ssft19.pdf).
-
-20. PĂSĂREANU, C.S. *Symbolic Execution and Quantitative Reasoning: Applications to Software Safety and Security*. Springer International Publishing, 2022. Synthesis Lectures on Software Engineering. ISBN 9783031025518.
-
-21. BJORNER, D.; BROY, M.; POTTOSIN, I.V. *Formal Methods in Programming and Their Applications: International Conference, Academgorodok, Novosibirsk, Russia, June 28 - July 2, 1993. Proceedings*. Springer Berlin Heidelberg, 1993. Lecture Notes in Computer Science. ISBN 9783540573166.
-
-22. GODEFROID, Patrice; KLARLUND, Nils; SEN, Koushik. *DART: Directed Automated Random Testing*. In: *ACM Sigplan Notices*. ACM, 2005, vol. 40, pp. 213–223. No. 6.
-
-23. FRIEDL, Jeffrey E. F. *Mastering Regular Expressions, 3rd Edition*. O'Reilly Media, Inc., 2006. ISBN 9780596528126.
-
-24. VARIOUS. *man grep*. Linux Manual Pages. 2021, vol. 1, no. 8, pp. X–X. Available also from: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html).
-
-25. NOVAK, Jernej; KRAJNC, Andrej; ZONTAR, Rok. *Taxonomy of Static Code Analysis Tools*. 2010.
-
-26. MURCH, R. *The Software Development Lifecycle - A Complete Guide*. Richard Murch, [n.d.].
-
-27. SATO, D. *DevOps in Practice: Reliable and Automated Software Delivery*. Casa do Código, 2014. ISBN 9788566250961.
-
-28. CHACON, S.; STRAUB, B. *Pro Git*. Apress, 2014. The Experts Voice. ISBN 9781484200766.
-
-29. ZHENG, A.; CASARI, A. *Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists*. O'Reilly Media, 2018. ISBN 9781491953198.
-
-30. MANNING, C. D.; RAGHAVAN, P.; SCHÜTZE, H. *Introduction to Information Retrieval*. Cambridge University Press, 2008. ISBN 0521865719.
-
-31. SAMMUT, C.; WEBB, G.I. *Encyclopedia of Machine Learning*. Springer US, 2011. ISBN 9780387307688.
