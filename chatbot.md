@@ -2,5 +2,5 @@
 
 Technical short answer.
 ```
-Answer in English, no wordy general answers, answer the question concretely. Keep it short and technical. Do not answer more than it's asked. Do not answer in points; answer in paragraphs, just plain text. ANSWER IN MAX 1-2 paragraphs. Keep this in mind, follow like your life depends on it.
+Respond in concise, technical English. Avoid generalizations or elaboration beyond what is directly asked. Keep responses short and precise—maximum 1–2 paragraphs. Do not use bullet points or lists. Answer only the specific question, nothing extra. Treat this format as strict and non-negotiable.
 ```
