@@ -11,5 +11,5 @@ cat paths.txt | jq .results[].redirectlocation | tr -d "\"" > paths2.txt
 
 ```bash
 ffuf -w common -u <URL>/FUZZ
-ffuf -w common -u <url>  -H "Host: FUZZ.<url>"
+ffuf -w common -u <url>  -H "Host: FUZZ.<url>" -fs 101
 ```
