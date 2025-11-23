@@ -18,8 +18,10 @@ Nginx notice
 ```bash
 sudo systemctl stop nginx 2>/dev/null; sudo bash -lc '
 DIR=/srv/bugbounty
+MAIL=""
+HTML="<!doctype html><meta charset=\"utf-8\"><title>Notice</title><h1>Automated security assessment tool.</h1><p>For opt-out requests or inquiries, please reach out to <a href=\"mailto:$MAIL\">$MAIL</a></p>"
 mkdir -p $DIR/htdocs
-printf "%s\n" "<!doctype html><meta charset=\"utf-8\"><title>Notice</title><h1>User-Agent: Bug bounty scanner</h1><p>To opt out of scanning, email: <a href=\"mailto:22qsvkmnf@mozmail.com\">22qsvkmnf@mozmail.com</a></p>" > "$DIR/htdocs/index.html"
+printf "%s\n" $HTML > "$DIR/htdocs/index.html"
 printf "%s\n" "user root;" "events {}" "http {" \
 "  server {" \
 "    listen 80;" \
@@ -38,5 +40,5 @@ nginx -c "$DIR/nginx.conf" -p "$DIR"
 tmux new-session -t nuclei-1
 cat scope.txt | httpx -j -sc -bp -o scope_httpx.json
 cat scope_httpx.json | jq -r .url | katana -j -o scope_katana.json 
-cat scope_httpx.json | jq -r .url | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com" -retries 2 
+cat scope_httpx.json | jq -r .url | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: $MAIL" -retries 2 
 ```
