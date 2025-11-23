@@ -6,6 +6,7 @@ Needed packages
 ```bash
 tmux
 go
+jq
 nuclei
 httpx
 naabu
@@ -35,5 +36,6 @@ nginx -c "$DIR/nginx.conf" -p "$DIR"
 
 ```bash
 tmux new-session -t nuclei-1
-cat scope.txt | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com" -retries 2 
+cat scope.txt | httpx -j -sc -bp -o scope_httpx.json
+cat scope_httpx.json | jq -r .url | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com" -retries 2 
 ```
