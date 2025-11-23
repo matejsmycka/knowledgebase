@@ -37,5 +37,6 @@ nginx -c "$DIR/nginx.conf" -p "$DIR"
 ```bash
 tmux new-session -t nuclei-1
 cat scope.txt | httpx -j -sc -bp -o scope_httpx.json
+cat scope_httpx.json | jq -r .url | katana -j -o scope_katana.json 
 cat scope_httpx.json | jq -r .url | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com" -retries 2 
 ```
