@@ -31,5 +31,6 @@ nginx -c "$DIR/nginx.conf" -p "$DIR"
 ## Nuclei
 
 ```bash
-nuclei -jsonl -o findings2.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com"  -rate-limit 10  -uc -fa high -retries 2 
+tmux new-session -t nuclei-1
+cat scope.txt | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: 22qsvkmnf@mozmail.com" -retries 2 
 ```
