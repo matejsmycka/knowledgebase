@@ -5,7 +5,10 @@
 Needed packages
 ```bash
 tmux
+go
 nuclei
+httpx
+naabu
 ffuf
 nginx
 ```
