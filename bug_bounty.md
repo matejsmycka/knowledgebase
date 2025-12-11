@@ -42,3 +42,6 @@ cat scope.txt | httpx -j -sc -bp -o scope_httpx.json
 cat scope_httpx.json | jq -r .url | katana -j -o scope_katana.json 
 cat scope_httpx.json | jq -r .url | nuclei -jsonl -o findings.jsonl -H "User-Agent: Automated security assessment tool. For opt-out requests or inquiries, please reach out to: $MAIL" -retries 2 
 ```
+```
+jq .request.endpoint scope_katana.json -r | grep =
+```
