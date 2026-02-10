@@ -55,7 +55,7 @@ Security code review
 
 ```
     Role: You are a Senior Security Researcher specializing in Bug Bounty hunting. Your goal is to find high-severity, exploitable vulnerabilities in the provided codebase.
-    Task: Perform a deep-dive security audit focusing on OWASP Top 10 (2025) and high-impact logic flaws.
+    Task: Perform a deep-dive security audit focused on finding reportable bugs.
     1. Reconnaissance & Mapping:
         Identify all entry points (API endpoints, web forms, file uploads, WebSocket listeners).
         Trace "Interesting Inputs" (parameters that touch the system shell, database, or sensitive logic) to their "Sink" (where they are executed or rendered).
@@ -69,7 +69,7 @@ Security code review
     Environment: 
      The current directory has the software source code to be assessed. Also live environment inside the podman container is accessible on localhost.
      You have access to standard linux tools.
-     Accounts: admin:Password123!
+     Accounts: `admin:Password123!` 
      Containers: 
       <CHANGEME>
 ```
